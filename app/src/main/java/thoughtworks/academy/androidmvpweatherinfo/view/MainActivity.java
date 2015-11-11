@@ -1,9 +1,11 @@
-package thoughtworks.academy.androidmvpweatherinfo;
+package thoughtworks.academy.androidmvpweatherinfo.view;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import thoughtworks.academy.androidmvpweatherinfo.R;
 
 
 public class MainActivity extends ActionBarActivity {
