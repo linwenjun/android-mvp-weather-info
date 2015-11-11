@@ -1,6 +1,7 @@
 package thoughtworks.academy.androidmvpweatherinfo.model;
-package thoughtworks.academy.androidmvpweatherinfo.presenter;
+
+import thoughtworks.academy.androidmvpweatherinfo.presenter.IOnWeatherListener;
 
 public interface IWeatherModel {
-    void getWeather(String cityId, IOnWeatherListener listener)
+    void getWeather(String cityId, IOnWeatherListener listener);
 }
