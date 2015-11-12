@@ -1,6 +1,7 @@
 package thoughtworks.academy.androidmvpweatherinfo.model;
 
 public class WeatherInfo {
+    private String city;
     private String cityid;
     private String temp;
     private String WD;
@@ -99,5 +100,13 @@ public class WeatherInfo {
 
     public void setQy(String qy) {
         this.qy = qy;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
     }
 }

@@ -2,13 +2,13 @@ package thoughtworks.academy.androidmvpweatherinfo.model;
 
 
 public class Weather {
-    private WeatherInfo weatherInfo;
+    private WeatherInfo weatherinfo;
 
-    public WeatherInfo getWeatherInfo() {
-        return weatherInfo;
+    public WeatherInfo getWeatherinfo() {
+        return weatherinfo;
     }
 
-    public void setWeatherInfo(WeatherInfo weatherInfo) {
-        this.weatherInfo = weatherInfo;
+    public void setWeatherinfo(WeatherInfo weatherinfo) {
+        this.weatherinfo = weatherinfo;
     }
 }
